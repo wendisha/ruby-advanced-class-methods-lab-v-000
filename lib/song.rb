@@ -52,7 +52,6 @@ class Song
     song_name=song.split(" - ")
     song=self.new
     song.name=song_name[1]
-    #binding.pry
     song.artist_name=song_name[0]
     song
   end 
